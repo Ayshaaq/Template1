@@ -1,0 +1,61 @@
+
+/*   3.8 Blog page   */
+   
+   .blog-items{
+        overflow: hidden;
+    }
+    
+    .blog-item{
+        float: left;
+        width: 31%;
+        text-align: left;
+        background-color: white;
+   
+        
+    }
+    
+    .blog-item-img{
+       padding-bottom: 20px;
+    }
+    
+    .blog-img{
+        width: 100%;
+    }
+    
+    .blog-list{
+        padding-left: 15px;
+        list-style: none;
+        padding-bottom: 20px;
+    }
+.blog-list i{
+    color: var(--mainColor);
+    
+}
+.blog-list li{
+    display: inline-block;
+    color: #10161A;
+    padding-right: 10px;
+
+}
+.blog-item-title{
+  
+    font-weight: 700;
+    font-size: 22px;
+    color: #10161A;
+    padding-bottom: 20px;
+    
+}
+.blog-item-desc{
+    color: #868F9B;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+
+.blog-read-more{
+    color: var(--mainColor);
+}
+
+

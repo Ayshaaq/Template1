@@ -1,0 +1,176 @@
+/*
+    1.Common styles
+    2.General styles
+    3.Sections
+          3.0 Header section   
+          3.1 Home section    
+          3.2 About section   
+          3.3 Portfolio section    
+          3.4 Services section  
+          3.5 Offer section   
+          3.6 Pricessection    
+          3.7 Team section    
+          3.8 Blog page   
+          3.9 Contact section 
+          3.10 Footer sections
+
+
+*/
+
+
+
+/*         1.Common styles      */
+
+/* 
+
+        -container
+        -overlay
+        -opacity hover
+        -section header
+        -seaction padding
+        -hover effect (left to right )
+        -hover effect (top to bottom)
+
+*/
+
+.overlay{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(28,29,33,.8);
+    
+}
+
+.hover-opacity{
+    
+    transition: opacity .5s;
+}
+
+.hover-opacity:hover{
+    opacity: .8;
+}
+
+
+
+/*     2.General styles    */
+        *{
+            margin: 0;
+            padding: 0; 
+            box-sizing: border-box;
+
+        }
+        
+:root{
+    
+    --mainColor:#6195ff;
+    --bgColor:#f9f9f9;
+    --whiteColor:#fff;
+    --grayColor:#999;
+    
+}
+        
+         .clear{
+            clear: both;
+        }
+
+
+        .container{
+
+            width: 80%;
+             margin: auto;
+        }
+
+        h1,h2,h3,h4,h5,h6{
+
+            font-family:  montserrat,sans-serif;
+        }
+
+        body{
+
+            font-family: varela round,sans-serif;
+        }
+       
+        button{
+
+            font-family:  varela round,sans-serif;
+        }
+
+a{
+    text-decoration: none;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.section-header .line{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: var(--mainColor);
+    margin: 0 auto 70px auto;
+    
+    
+}
+.padding-y{
+    padding: 120px 0;
+}
+
+.ltr-effect , .ttb-effect{
+    position: relative;
+}
+.ltr-effect:after , .ttb-effect:after{
+    position: absolute;
+    content: "";
+ 
+    bottom: 0;
+    right: 0;
+       top: 0;
+    left: 0;
+
+    z-index: -1;
+    background: #1c1d21;
+    
+}
+.ltr-effect:hover:after{
+    
+    width: 100%;
+
+}
+.ttb-effect:hover:after{
+    
+    height: 100%;
+
+}
+
+.ltr-effect:after{
+    
+    width:0;
+     transition: width .4s;
+}
+
+.ttb-effect:after{
+    
+    height: 0;
+     transition: height.4s;
+}
+
+.mg{
+
+    margin: 0 3%;
+}
+
+
+
+/*         3.Sections     */

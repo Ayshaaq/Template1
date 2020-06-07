@@ -1,0 +1,43 @@
+
+/*   3.4 Services section    */
+
+
+
+.service-content{
+    overflow: hidden;
+}
+
+.service-item .service-item-title {
+    
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+ .service-item .service-item-desc{
+     
+   color: #999;
+     line-height: 1.6;
+}
+.service-item .icon{
+ color: var(--mainColor);
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+.service-item{
+    
+    width: 31%;
+    float: left;
+    text-align: left;
+    border: 1px solid #e8e8e8;
+     padding: 40px 22px 60px 70px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+  .service-item:hover .service-item-title{
+                    color: white;
+                }
+
+
+

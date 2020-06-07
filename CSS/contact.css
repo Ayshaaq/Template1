@@ -1,0 +1,87 @@
+
+
+/*   3.9 Contact section    */
+
+.contact{
+    
+}
+
+.contact-items{
+    overflow: hidden;
+
+    
+}
+.contact-item{
+    float: left;
+    text-align: center;
+    width: 30%;
+    
+}
+.contact-item i{
+    color: var(--mainColor);
+    padding-bottom: 15px;
+    font-size: 38px;
+}
+  
+.contact-item-title{
+    text-transform: capitalize;
+    font-size: 21px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.contact-item-desc{
+    color: #868F9B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contact-inputs1 , .contact-inputs2{
+    width: 65%;
+    margin: auto;
+  
+}
+
+.input{
+   
+    background-color: #f9f9f9;
+    font-size: 18px;
+    border: none;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-inputs1 .name , .email{
+
+    width: 49%;
+    margin-top: 50px;
+   
+}
+
+.contact-inputs1 .name{
+    margin-right: 5px;
+   
+}
+
+.contact-inputs2 .input{
+    width: 100%;
+}
+
+.contact-inputs2 .textarea{
+    height: 70px;
+    padding-bottom: 50px;
+    overflow-y: hidden;
+}
+.contact-btn{
+    background-color: var(--mainColor);
+    width: 170px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 50px;
+    
+}

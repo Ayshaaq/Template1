@@ -1,0 +1,43 @@
+
+/*   3.6 Prices section      */
+/*   Numbers section    */
+
+
+.numbers{
+    position: relative;
+    background-image: url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.numbers-items{
+    overflow: hidden;
+ 
+}
+
+.number-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 100px 0;
+    
+    
+}
+.numbers-items .icon{
+    color: var(--mainColor);
+    margin-bottom: 15px;
+}
+
+.number-item-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 33px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.number-item-text{
+    color: #fff;
+    
+}
